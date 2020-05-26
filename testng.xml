@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite   name="Suite">
+	<listeners>
+		<listener class-name="com.listner.TestListener" />
+	</listeners>
+
+
+	
+	<test name="Mohan  Emulator">
+		<parameter name="Device" value="Emulator_Device"></parameter>
+		<classes>
+			<class name="com.appium.test.wordweb_Mohan" />
+		</classes>
+	</test>  
+
+<test name="Mohan  RealDevice">
+		<parameter name="Device" value="Real_Device"></parameter>
+		<classes>
+			<class name="com.appium.test.wordweb_Mohan" />
+		</classes>
+	</test>  
+
+<test name="Mohan  Cloud">
+		<parameter name="Device" value="Cloud_Device"></parameter>
+		<classes>
+			<class name="com.appium.test.wordweb_Mohan" />
+		</classes>
+	</test>  
+	</test> 
+
+</suite>
+
+
+
+
