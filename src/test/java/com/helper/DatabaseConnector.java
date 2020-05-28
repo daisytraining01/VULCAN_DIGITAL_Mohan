@@ -50,20 +50,15 @@ public class DatabaseConnector {
                 for(int k=0;k<rsmd.getColumnCount();k++) {
                     String columnName = rsmd.getColumnName(k+1);
                     String type = rsmd.getColumnTypeName(k+1);
-                    String columnValue = null;
-                    
-                    
-                    
-                    
+                    String columnValue = null;               
                     if(type.contentEquals("VARCHAR")) {
                         columnValue = Data_RS.getString(columnName);
                     }else if(type.contentEquals("INT")) {
                         columnValue = Integer.toString(Data_RS.getInt(columnName));
-                    }
-                    
+                    }                    
                     System.out.println(i +  " "+k +  " "+columnName + " " + type +" "+columnValue  );
                     
-            
+     
                     if (!(columnValue == null)) {
                         data[i][k] = columnValue.toString();
                     }

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="23" passed="19" failed="1" skipped="1">
+<testng-results ignored="2" total="26" passed="24" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-05-28T10:07:54 IST" name="Suite" finished-at="2020-05-28T10:13:50 IST" duration-ms="355511">
+  <suite started-at="2020-05-28T21:24:26 IST" name="Suite" finished-at="2020-05-28T21:31:10 IST" duration-ms="404081">
     <groups>
     </groups>
-    <test started-at="2020-05-28T10:07:54 IST" name="Mohan  Emulator" finished-at="2020-05-28T10:10:33 IST" duration-ms="159468">
+    <test started-at="2020-05-28T21:24:26 IST" name="Mohan  Emulator" finished-at="2020-05-28T21:27:39 IST" duration-ms="192435">
       <class name="com.appium.test.wordweb_Mohan">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.appium.test.wordweb_Mohan@68e5eea7]" started-at="2020-05-28T10:07:54 IST" name="setUp" finished-at="2020-05-28T10:08:26 IST" duration-ms="31631" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.appium.test.wordweb_Mohan@68e5eea7]" started-at="2020-05-28T21:24:26 IST" name="setUp" finished-at="2020-05-28T21:25:09 IST" duration-ms="42850" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="loadDatabase()[pri:0, instance:com.appium.test.wordweb_Mohan@68e5eea7]" started-at="2020-05-28T10:08:26 IST" name="loadDatabase" finished-at="2020-05-28T10:08:27 IST" duration-ms="905" status="PASS">
+        <test-method is-config="true" signature="loadDatabase()[pri:0, instance:com.appium.test.wordweb_Mohan@68e5eea7]" started-at="2020-05-28T21:25:09 IST" name="loadDatabase" finished-at="2020-05-28T21:25:10 IST" duration-ms="1144" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadDatabase -->
-        <test-method signature="bookMarkwords(java.lang.String, java.lang.String)[pri:-1, instance:com.appium.test.wordweb_Mohan@68e5eea7]" started-at="2020-05-28T10:08:31 IST" name="bookMarkwords" data-provider="dp" finished-at="2020-05-28T10:08:55 IST" duration-ms="24044" status="PASS">
+        <test-method signature="bookMarkwords(java.lang.String, java.lang.String)[pri:-1, instance:com.appium.test.wordweb_Mohan@68e5eea7]" started-at="2020-05-28T21:25:15 IST" name="bookMarkwords" data-provider="dp" finished-at="2020-05-28T21:25:42 IST" duration-ms="27184" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -38,7 +38,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bookMarkwords -->
-        <test-method signature="bookMarkwords(java.lang.String, java.lang.String)[pri:-1, instance:com.appium.test.wordweb_Mohan@68e5eea7]" started-at="2020-05-28T10:08:55 IST" name="bookMarkwords" data-provider="dp" finished-at="2020-05-28T10:09:31 IST" duration-ms="36187" status="FAIL">
+        <test-method signature="bookMarkwords(java.lang.String, java.lang.String)[pri:-1, instance:com.appium.test.wordweb_Mohan@68e5eea7]" started-at="2020-05-28T21:25:42 IST" name="bookMarkwords" data-provider="dp" finished-at="2020-05-28T21:25:54 IST" duration-ms="12361" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -51,90 +51,10 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-PCRDTAN', ip: '192.168.238.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13'
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {appActivity: com.wordwebsoftware.android..., appPackage: com.wordwebsoftware.android..., databaseEnabled: false, desired: {appActivity: com.wordwebsoftware.android..., appPackage: com.wordwebsoftware.android..., deviceName: Emulator, platformName: android, platformVersion: 9, resetKeyboard: true, udid: emulator-5554, unicodeKeyboard: true}, deviceApiLevel: 29, deviceManufacturer: Google, deviceModel: sdk_gphone_x86, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 10, resetKeyboard: true, statBarHeight: 66, takesScreenshot: true, udid: emulator-5554, unicodeKeyboard: true, viewportRect: {height: 1962, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: 8f81ee7d-f983-42a8-85e7-b6a6665ce0a3
-*** Element info: {Using=id, value=add_to_bookmark_menu}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-PCRDTAN', ip: '192.168.238.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13'
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {appActivity: com.wordwebsoftware.android..., appPackage: com.wordwebsoftware.android..., databaseEnabled: false, desired: {appActivity: com.wordwebsoftware.android..., appPackage: com.wordwebsoftware.android..., deviceName: Emulator, platformName: android, platformVersion: 9, resetKeyboard: true, udid: emulator-5554, unicodeKeyboard: true}, deviceApiLevel: 29, deviceManufacturer: Google, deviceModel: sdk_gphone_x86, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 10, resetKeyboard: true, statBarHeight: 66, takesScreenshot: true, udid: emulator-5554, unicodeKeyboard: true, viewportRect: {height: 1962, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: 8f81ee7d-f983-42a8-85e7-b6a6665ce0a3
-*** Element info: {Using=id, value=add_to_bookmark_menu}
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
-at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
-at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
-at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
-at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
-at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69)
-at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
-at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
-at org.openqa.selenium.By$ById.findElement(By.java:188)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
-at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
-at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-at com.helper.UserActions.Click(UserActions.java:79)
-at com.appium.test.wordweb_Mohan.bookMarkwords(wordweb_Mohan.java:151)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
-at org.testng.TestRunner.privateRun(TestRunner.java:767)
-at org.testng.TestRunner.run(TestRunner.java:588)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
-at org.testng.TestNG.runSuites(TestNG.java:1066)
-at org.testng.TestNG.run(TestNG.java:1034)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bookMarkwords -->
-        <test-method signature="bookMarkwords(java.lang.String, java.lang.String)[pri:-1, instance:com.appium.test.wordweb_Mohan@68e5eea7]" started-at="2020-05-28T10:09:31 IST" name="bookMarkwords" data-provider="dp" finished-at="2020-05-28T10:09:39 IST" duration-ms="7560" status="PASS">
+        <test-method signature="bookMarkwords(java.lang.String, java.lang.String)[pri:-1, instance:com.appium.test.wordweb_Mohan@68e5eea7]" started-at="2020-05-28T21:25:54 IST" name="bookMarkwords" data-provider="dp" finished-at="2020-05-28T21:26:04 IST" duration-ms="9767" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -150,7 +70,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bookMarkwords -->
-        <test-method signature="bookMarkwords(java.lang.String, java.lang.String)[pri:-1, instance:com.appium.test.wordweb_Mohan@68e5eea7]" started-at="2020-05-28T10:09:39 IST" name="bookMarkwords" data-provider="dp" finished-at="2020-05-28T10:09:48 IST" duration-ms="9099" status="PASS">
+        <test-method signature="bookMarkwords(java.lang.String, java.lang.String)[pri:-1, instance:com.appium.test.wordweb_Mohan@68e5eea7]" started-at="2020-05-28T21:26:04 IST" name="bookMarkwords" data-provider="dp" finished-at="2020-05-28T21:26:13 IST" duration-ms="9221" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -166,39 +86,71 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bookMarkwords -->
-        <test-method signature="removeBookmark(java.lang.String, java.lang.String)[pri:0, instance:com.appium.test.wordweb_Mohan@68e5eea7]" started-at="2020-05-28T10:09:48 IST" name="removeBookmark" data-provider="dp" finished-at="2020-05-28T10:09:48 IST" depends-on-methods="com.appium.test.wordweb_Mohan.bookMarkwords" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method wordweb_Mohan.removeBookmark(java.lang.String, java.lang.String)[pri:0, instance:com.appium.test.wordweb_Mohan@68e5eea7] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method wordweb_Mohan.removeBookmark(java.lang.String, java.lang.String)[pri:0, instance:com.appium.test.wordweb_Mohan@68e5eea7] depends on not successfully finished methods
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
-at org.testng.TestRunner.privateRun(TestRunner.java:767)
-at org.testng.TestRunner.run(TestRunner.java:588)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
-at org.testng.TestNG.runSuites(TestNG.java:1066)
-at org.testng.TestNG.run(TestNG.java:1034)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
+        <test-method signature="removeBookmark(java.lang.String, java.lang.String)[pri:0, instance:com.appium.test.wordweb_Mohan@68e5eea7]" started-at="2020-05-28T21:26:17 IST" name="removeBookmark" data-provider="dp" finished-at="2020-05-28T21:26:23 IST" depends-on-methods="com.appium.test.wordweb_Mohan.bookMarkwords" duration-ms="6350" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mistakenly]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removeBookmark -->
-        <test-method signature="SeatchWithType(java.lang.String, java.lang.String)[pri:1, instance:com.appium.test.wordweb_Mohan@68e5eea7]" started-at="2020-05-28T10:09:49 IST" name="SeatchWithType" data-provider="dp1" finished-at="2020-05-28T10:09:59 IST" duration-ms="10110" status="PASS">
+        <test-method signature="removeBookmark(java.lang.String, java.lang.String)[pri:0, instance:com.appium.test.wordweb_Mohan@68e5eea7]" started-at="2020-05-28T21:26:23 IST" name="removeBookmark" data-provider="dp" finished-at="2020-05-28T21:26:33 IST" depends-on-methods="com.appium.test.wordweb_Mohan.bookMarkwords" duration-ms="10420" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[give]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeBookmark -->
+        <test-method signature="removeBookmark(java.lang.String, java.lang.String)[pri:0, instance:com.appium.test.wordweb_Mohan@68e5eea7]" started-at="2020-05-28T21:26:33 IST" name="removeBookmark" data-provider="dp" finished-at="2020-05-28T21:26:41 IST" depends-on-methods="com.appium.test.wordweb_Mohan.bookMarkwords" duration-ms="7630" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[staked]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeBookmark -->
+        <test-method signature="removeBookmark(java.lang.String, java.lang.String)[pri:0, instance:com.appium.test.wordweb_Mohan@68e5eea7]" started-at="2020-05-28T21:26:41 IST" name="removeBookmark" data-provider="dp" finished-at="2020-05-28T21:26:50 IST" depends-on-methods="com.appium.test.wordweb_Mohan.bookMarkwords" duration-ms="9418" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[takeout]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeBookmark -->
+        <test-method signature="SeatchWithType(java.lang.String, java.lang.String)[pri:1, instance:com.appium.test.wordweb_Mohan@68e5eea7]" started-at="2020-05-28T21:26:53 IST" name="SeatchWithType" data-provider="dp1" finished-at="2020-05-28T21:27:03 IST" duration-ms="10680" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -214,7 +166,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SeatchWithType -->
-        <test-method signature="SeatchWithType(java.lang.String, java.lang.String)[pri:1, instance:com.appium.test.wordweb_Mohan@68e5eea7]" started-at="2020-05-28T10:09:59 IST" name="SeatchWithType" data-provider="dp1" finished-at="2020-05-28T10:10:10 IST" duration-ms="10843" status="PASS">
+        <test-method signature="SeatchWithType(java.lang.String, java.lang.String)[pri:1, instance:com.appium.test.wordweb_Mohan@68e5eea7]" started-at="2020-05-28T21:27:03 IST" name="SeatchWithType" data-provider="dp1" finished-at="2020-05-28T21:27:14 IST" duration-ms="10962" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -230,7 +182,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SeatchWithType -->
-        <test-method signature="SeatchWithType(java.lang.String, java.lang.String)[pri:1, instance:com.appium.test.wordweb_Mohan@68e5eea7]" started-at="2020-05-28T10:10:10 IST" name="SeatchWithType" data-provider="dp1" finished-at="2020-05-28T10:10:21 IST" duration-ms="10587" status="PASS">
+        <test-method signature="SeatchWithType(java.lang.String, java.lang.String)[pri:1, instance:com.appium.test.wordweb_Mohan@68e5eea7]" started-at="2020-05-28T21:27:14 IST" name="SeatchWithType" data-provider="dp1" finished-at="2020-05-28T21:27:25 IST" duration-ms="10777" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -246,7 +198,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SeatchWithType -->
-        <test-method signature="SeatchWithType(java.lang.String, java.lang.String)[pri:1, instance:com.appium.test.wordweb_Mohan@68e5eea7]" started-at="2020-05-28T10:10:21 IST" name="SeatchWithType" data-provider="dp1" finished-at="2020-05-28T10:10:31 IST" duration-ms="10084" status="PASS">
+        <test-method signature="SeatchWithType(java.lang.String, java.lang.String)[pri:1, instance:com.appium.test.wordweb_Mohan@68e5eea7]" started-at="2020-05-28T21:27:25 IST" name="SeatchWithType" data-provider="dp1" finished-at="2020-05-28T21:27:36 IST" duration-ms="11025" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -262,23 +214,23 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SeatchWithType -->
-        <test-method is-config="true" signature="exit()[pri:0, instance:com.appium.test.wordweb_Mohan@68e5eea7]" started-at="2020-05-28T10:10:31 IST" name="exit" finished-at="2020-05-28T10:10:32 IST" duration-ms="671" status="PASS">
+        <test-method is-config="true" signature="exit()[pri:0, instance:com.appium.test.wordweb_Mohan@68e5eea7]" started-at="2020-05-28T21:27:36 IST" name="exit" finished-at="2020-05-28T21:27:37 IST" duration-ms="883" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exit -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.appium.test.wordweb_Mohan@68e5eea7]" started-at="2020-05-28T10:10:32 IST" name="afterTest" finished-at="2020-05-28T10:10:33 IST" duration-ms="1867" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.appium.test.wordweb_Mohan@68e5eea7]" started-at="2020-05-28T21:27:37 IST" name="afterTest" finished-at="2020-05-28T21:27:39 IST" duration-ms="1662" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- com.appium.test.wordweb_Mohan -->
     </test> <!-- Mohan  Emulator -->
-    <test started-at="2020-05-28T10:10:35 IST" name="Mohan  RealDevice" finished-at="2020-05-28T10:13:50 IST" duration-ms="194680">
+    <test started-at="2020-05-28T21:27:40 IST" name="Mohan  RealDevice" finished-at="2020-05-28T21:31:10 IST" duration-ms="210205">
       <class name="com.appium.test.wordweb_Mohan">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.appium.test.wordweb_Mohan@55740540]" started-at="2020-05-28T10:07:54 IST" name="beforeSuite" finished-at="2020-05-28T10:07:54 IST" duration-ms="10" status="PASS">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.appium.test.wordweb_Mohan@55740540]" started-at="2020-05-28T21:24:26 IST" name="beforeSuite" finished-at="2020-05-28T21:24:26 IST" duration-ms="21" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.appium.test.wordweb_Mohan@55740540]" started-at="2020-05-28T10:10:35 IST" name="setUp" finished-at="2020-05-28T10:11:20 IST" duration-ms="44729" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.appium.test.wordweb_Mohan@55740540]" started-at="2020-05-28T21:27:40 IST" name="setUp" finished-at="2020-05-28T21:28:37 IST" duration-ms="56989" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -289,11 +241,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="loadDatabase()[pri:0, instance:com.appium.test.wordweb_Mohan@55740540]" started-at="2020-05-28T10:11:20 IST" name="loadDatabase" finished-at="2020-05-28T10:11:22 IST" duration-ms="2123" status="PASS">
+        <test-method is-config="true" signature="loadDatabase()[pri:0, instance:com.appium.test.wordweb_Mohan@55740540]" started-at="2020-05-28T21:28:37 IST" name="loadDatabase" finished-at="2020-05-28T21:28:39 IST" duration-ms="1770" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadDatabase -->
-        <test-method signature="bookMarkwords(java.lang.String, java.lang.String)[pri:-1, instance:com.appium.test.wordweb_Mohan@55740540]" started-at="2020-05-28T10:11:25 IST" name="bookMarkwords" data-provider="dp" finished-at="2020-05-28T10:11:35 IST" duration-ms="10575" status="PASS">
+        <test-method signature="bookMarkwords(java.lang.String, java.lang.String)[pri:-1, instance:com.appium.test.wordweb_Mohan@55740540]" started-at="2020-05-28T21:28:42 IST" name="bookMarkwords" data-provider="dp" finished-at="2020-05-28T21:28:52 IST" duration-ms="10450" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -309,7 +261,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bookMarkwords -->
-        <test-method signature="bookMarkwords(java.lang.String, java.lang.String)[pri:-1, instance:com.appium.test.wordweb_Mohan@55740540]" started-at="2020-05-28T10:11:35 IST" name="bookMarkwords" data-provider="dp" finished-at="2020-05-28T10:11:52 IST" duration-ms="17083" status="PASS">
+        <test-method signature="bookMarkwords(java.lang.String, java.lang.String)[pri:-1, instance:com.appium.test.wordweb_Mohan@55740540]" started-at="2020-05-28T21:28:52 IST" name="bookMarkwords" data-provider="dp" finished-at="2020-05-28T21:29:10 IST" duration-ms="17397" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -325,7 +277,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bookMarkwords -->
-        <test-method signature="bookMarkwords(java.lang.String, java.lang.String)[pri:-1, instance:com.appium.test.wordweb_Mohan@55740540]" started-at="2020-05-28T10:11:52 IST" name="bookMarkwords" data-provider="dp" finished-at="2020-05-28T10:12:02 IST" duration-ms="9561" status="PASS">
+        <test-method signature="bookMarkwords(java.lang.String, java.lang.String)[pri:-1, instance:com.appium.test.wordweb_Mohan@55740540]" started-at="2020-05-28T21:29:10 IST" name="bookMarkwords" data-provider="dp" finished-at="2020-05-28T21:29:19 IST" duration-ms="9501" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -341,7 +293,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bookMarkwords -->
-        <test-method signature="bookMarkwords(java.lang.String, java.lang.String)[pri:-1, instance:com.appium.test.wordweb_Mohan@55740540]" started-at="2020-05-28T10:12:02 IST" name="bookMarkwords" data-provider="dp" finished-at="2020-05-28T10:12:14 IST" duration-ms="11613" status="PASS">
+        <test-method signature="bookMarkwords(java.lang.String, java.lang.String)[pri:-1, instance:com.appium.test.wordweb_Mohan@55740540]" started-at="2020-05-28T21:29:19 IST" name="bookMarkwords" data-provider="dp" finished-at="2020-05-28T21:29:32 IST" duration-ms="12238" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -357,7 +309,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bookMarkwords -->
-        <test-method signature="removeBookmark(java.lang.String, java.lang.String)[pri:0, instance:com.appium.test.wordweb_Mohan@55740540]" started-at="2020-05-28T10:12:17 IST" name="removeBookmark" data-provider="dp" finished-at="2020-05-28T10:12:24 IST" depends-on-methods="com.appium.test.wordweb_Mohan.bookMarkwords" duration-ms="7408" status="PASS">
+        <test-method signature="removeBookmark(java.lang.String, java.lang.String)[pri:0, instance:com.appium.test.wordweb_Mohan@55740540]" started-at="2020-05-28T21:29:35 IST" name="removeBookmark" data-provider="dp" finished-at="2020-05-28T21:29:42 IST" depends-on-methods="com.appium.test.wordweb_Mohan.bookMarkwords" duration-ms="7047" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -373,7 +325,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removeBookmark -->
-        <test-method signature="removeBookmark(java.lang.String, java.lang.String)[pri:0, instance:com.appium.test.wordweb_Mohan@55740540]" started-at="2020-05-28T10:12:24 IST" name="removeBookmark" data-provider="dp" finished-at="2020-05-28T10:12:39 IST" depends-on-methods="com.appium.test.wordweb_Mohan.bookMarkwords" duration-ms="15318" status="PASS">
+        <test-method signature="removeBookmark(java.lang.String, java.lang.String)[pri:0, instance:com.appium.test.wordweb_Mohan@55740540]" started-at="2020-05-28T21:29:42 IST" name="removeBookmark" data-provider="dp" finished-at="2020-05-28T21:29:56 IST" depends-on-methods="com.appium.test.wordweb_Mohan.bookMarkwords" duration-ms="14564" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -389,7 +341,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removeBookmark -->
-        <test-method signature="removeBookmark(java.lang.String, java.lang.String)[pri:0, instance:com.appium.test.wordweb_Mohan@55740540]" started-at="2020-05-28T10:12:39 IST" name="removeBookmark" data-provider="dp" finished-at="2020-05-28T10:12:49 IST" depends-on-methods="com.appium.test.wordweb_Mohan.bookMarkwords" duration-ms="9913" status="PASS">
+        <test-method signature="removeBookmark(java.lang.String, java.lang.String)[pri:0, instance:com.appium.test.wordweb_Mohan@55740540]" started-at="2020-05-28T21:29:56 IST" name="removeBookmark" data-provider="dp" finished-at="2020-05-28T21:30:05 IST" depends-on-methods="com.appium.test.wordweb_Mohan.bookMarkwords" duration-ms="8380" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -405,7 +357,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removeBookmark -->
-        <test-method signature="removeBookmark(java.lang.String, java.lang.String)[pri:0, instance:com.appium.test.wordweb_Mohan@55740540]" started-at="2020-05-28T10:12:49 IST" name="removeBookmark" data-provider="dp" finished-at="2020-05-28T10:13:01 IST" depends-on-methods="com.appium.test.wordweb_Mohan.bookMarkwords" duration-ms="11353" status="PASS">
+        <test-method signature="removeBookmark(java.lang.String, java.lang.String)[pri:0, instance:com.appium.test.wordweb_Mohan@55740540]" started-at="2020-05-28T21:30:05 IST" name="removeBookmark" data-provider="dp" finished-at="2020-05-28T21:30:16 IST" depends-on-methods="com.appium.test.wordweb_Mohan.bookMarkwords" duration-ms="11281" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -421,7 +373,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removeBookmark -->
-        <test-method signature="SeatchWithType(java.lang.String, java.lang.String)[pri:1, instance:com.appium.test.wordweb_Mohan@55740540]" started-at="2020-05-28T10:13:01 IST" name="SeatchWithType" data-provider="dp1" finished-at="2020-05-28T10:13:13 IST" duration-ms="11808" status="PASS">
+        <test-method signature="SeatchWithType(java.lang.String, java.lang.String)[pri:1, instance:com.appium.test.wordweb_Mohan@55740540]" started-at="2020-05-28T21:30:16 IST" name="SeatchWithType" data-provider="dp1" finished-at="2020-05-28T21:30:28 IST" duration-ms="12461" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -437,7 +389,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SeatchWithType -->
-        <test-method signature="SeatchWithType(java.lang.String, java.lang.String)[pri:1, instance:com.appium.test.wordweb_Mohan@55740540]" started-at="2020-05-28T10:13:13 IST" name="SeatchWithType" data-provider="dp1" finished-at="2020-05-28T10:13:23 IST" duration-ms="10334" status="PASS">
+        <test-method signature="SeatchWithType(java.lang.String, java.lang.String)[pri:1, instance:com.appium.test.wordweb_Mohan@55740540]" started-at="2020-05-28T21:30:28 IST" name="SeatchWithType" data-provider="dp1" finished-at="2020-05-28T21:30:39 IST" duration-ms="10175" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -453,7 +405,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SeatchWithType -->
-        <test-method signature="SeatchWithType(java.lang.String, java.lang.String)[pri:1, instance:com.appium.test.wordweb_Mohan@55740540]" started-at="2020-05-28T10:13:23 IST" name="SeatchWithType" data-provider="dp1" finished-at="2020-05-28T10:13:33 IST" duration-ms="10114" status="PASS">
+        <test-method signature="SeatchWithType(java.lang.String, java.lang.String)[pri:1, instance:com.appium.test.wordweb_Mohan@55740540]" started-at="2020-05-28T21:30:39 IST" name="SeatchWithType" data-provider="dp1" finished-at="2020-05-28T21:30:49 IST" duration-ms="10299" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -469,7 +421,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SeatchWithType -->
-        <test-method signature="SeatchWithType(java.lang.String, java.lang.String)[pri:1, instance:com.appium.test.wordweb_Mohan@55740540]" started-at="2020-05-28T10:13:33 IST" name="SeatchWithType" data-provider="dp1" finished-at="2020-05-28T10:13:48 IST" duration-ms="14851" status="PASS">
+        <test-method signature="SeatchWithType(java.lang.String, java.lang.String)[pri:1, instance:com.appium.test.wordweb_Mohan@55740540]" started-at="2020-05-28T21:30:49 IST" name="SeatchWithType" data-provider="dp1" finished-at="2020-05-28T21:31:09 IST" duration-ms="19691" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -485,15 +437,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SeatchWithType -->
-        <test-method is-config="true" signature="exit()[pri:0, instance:com.appium.test.wordweb_Mohan@55740540]" started-at="2020-05-28T10:13:48 IST" name="exit" finished-at="2020-05-28T10:13:49 IST" duration-ms="686" status="PASS">
+        <test-method is-config="true" signature="exit()[pri:0, instance:com.appium.test.wordweb_Mohan@55740540]" started-at="2020-05-28T21:31:09 IST" name="exit" finished-at="2020-05-28T21:31:09 IST" duration-ms="830" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exit -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.appium.test.wordweb_Mohan@55740540]" started-at="2020-05-28T10:13:49 IST" name="afterTest" finished-at="2020-05-28T10:13:50 IST" duration-ms="988" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.appium.test.wordweb_Mohan@55740540]" started-at="2020-05-28T21:31:09 IST" name="afterTest" finished-at="2020-05-28T21:31:10 IST" duration-ms="1001" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterSuit()[pri:0, instance:com.appium.test.wordweb_Mohan@55740540]" started-at="2020-05-28T10:13:50 IST" name="afterSuit" finished-at="2020-05-28T10:13:50 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterSuit()[pri:0, instance:com.appium.test.wordweb_Mohan@55740540]" started-at="2020-05-28T21:31:11 IST" name="afterSuit" finished-at="2020-05-28T21:31:11 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuit -->
