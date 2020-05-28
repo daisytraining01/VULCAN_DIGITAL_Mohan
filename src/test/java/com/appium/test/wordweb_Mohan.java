@@ -184,13 +184,7 @@ public class wordweb_Mohan  {
 //		  Object data[][]= ExcelUtil.getTestData("./testData.xlsx", "Mohan")  ;
 		  Object data[][]= DatabaseConnector.getDataFromDatabase("Mohan");	 
 		  
-		  for(int i=0;i<=3;i++) {
-				  for(int j=0;j<2;j++) {
-				  System.out.println(i + " "+ j);
-				  System.out.println(data[i][j]);
-			  }
-			  
-		  }	  
+
 		  return data;
 		  }
 

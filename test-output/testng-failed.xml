@@ -4,16 +4,20 @@
   <listeners>
     <listener class-name="com.listner.TestListener"/>
   </listeners>
-  <test thread-count="5" name="Shambu Cloud  Cloud(failed)">
+  <test thread-count="5" name="Mohan  Emulator(failed)">
     <parameter name="Device" value="Emulator_Device"/>
     <classes>
-      <class name="com.appium.test.Gnucash">
+      <class name="com.appium.test.wordweb_Mohan">
         <methods>
-          <include name="withDataProvider"/>
+          <include name="afterSuit"/>
           <include name="setUp"/>
+          <include name="loadDatabase"/>
           <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="exit"/>
+          <include name="Wordweb" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.appium.test.Gnucash -->
+      </class> <!-- com.appium.test.wordweb_Mohan -->
     </classes>
-  </test> <!-- Shambu Cloud  Cloud(failed) -->
+  </test> <!-- Mohan  Emulator(failed) -->
 </suite> <!-- Failed suite [Suite] -->
