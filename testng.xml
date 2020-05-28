@@ -14,7 +14,6 @@
 			<class name="com.appium.test.wordweb_Mohan" />
 		</classes>
 	</test>
-
 	<test name="Mohan  RealDevice">
 		<parameter name="Device" value="Real_Device"></parameter>
 		<classes>
@@ -23,9 +22,4 @@
 	</test>
 
 
-
 </suite>
-
-
-
-

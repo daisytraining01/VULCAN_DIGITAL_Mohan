@@ -14,8 +14,9 @@
           <include name="loadDatabase"/>
           <include name="afterTest"/>
           <include name="beforeSuite"/>
+          <include name="bookMarkwords" invocation-numbers="1"/>
           <include name="exit"/>
-          <include name="Wordweb" invocation-numbers="0"/>
+          <include name="removeBookmark"/>
         </methods>
       </class> <!-- com.appium.test.wordweb_Mohan -->
     </classes>

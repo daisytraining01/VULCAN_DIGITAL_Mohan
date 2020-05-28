@@ -140,14 +140,41 @@ public class wordweb_Mohan  {
 		user.Click(pageObjects_Mohan.lookup);
 	}
 
-	@Test(dataProvider = "dp")
-	public void Wordweb(String searchText, String wordType) throws IOException {
+	@Test(dataProvider = "dp",priority=-1)
+	public void bookMarkwords(String searchText, String wordType) throws IOException {
+		
+		System.out.println("Create Bookmark");
+		
+		user.ClearAndSendKeys(pageObjects_Mohan.searchText, searchText);
+		user.Click(pageObjects_Mohan.clickFirstResult);
+		user.pass("Tetxt search result", driver);
+		user.Click(pageObjects_Mohan.bookMark);
+		user.Click(pageObjects_Mohan.backButton);		
+
+	}
+	
+	
+	@Test(dataProvider = "dp",dependsOnMethods={"bookMarkwords"},priority=0)
+	public void removeBookmark(String searchText, String wordType) throws IOException {
+		
+		System.out.println("Remove Bookmark");
 		
 		user.ClearAndSendKeys(pageObjects_Mohan.searchText, searchText);
 		user.Click(pageObjects_Mohan.clickFirstResult);
 		user.pass("Tetxt search result", driver);
 		user.Click(pageObjects_Mohan.bookMark);
 		user.Click(pageObjects_Mohan.backButton);
+
+	}
+	
+	
+	
+	@Test(dataProvider = "dp1",priority=1)
+	public void SeatchWithType(String searchText, String wordType) throws IOException {
+		
+		System.out.println("Search by type");
+		
+		
 		user.Click(pageObjects_Mohan.searchTab);
 		System.out.println(wordType);
 		
@@ -173,20 +200,26 @@ public class wordweb_Mohan  {
 		driver.pressKey(new KeyEvent(AndroidKey.ENTER));
 		user.Click(pageObjects_Mohan.clickFirstResultType);
 		user.pass("Tetxt search result", driver);
-		user.Click(pageObjects_Mohan.bookMark);
+//		user.Click(pageObjects_Mohan.bookMark);
 		user.Click(pageObjects_Mohan.backButton);
 		user.Click(pageObjects_Mohan.lookup);
 
 	}
 	
+	
 	  @DataProvider
 	  public Object[][] dp() throws SQLException {
-//		  Object data[][]= ExcelUtil.getTestData("./testData.xlsx", "Mohan")  ;
-		  Object data[][]= DatabaseConnector.getDataFromDatabase("Mohan");	 
-		  
 
+		  Object data[][]= DatabaseConnector.getDataFromDatabase("Mohan");	 
 		  return data;
 		  }
+	  
+	  @DataProvider
+	  public Object[][] dp1() throws SQLException {
+		  Object data[][]= ExcelUtil.getTestData("./testData.xlsx", "Mohan")  ;
+		  return data;
+		  }
+
 
 	@AfterClass
 	public void exit() throws IOException {
